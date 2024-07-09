@@ -1,0 +1,23 @@
+@media screen and (max-width:768px){
+    header div.wrap nav h1 a{
+    width: 140px;
+    }
+    header div.wrap nav ul.gnb{
+       display: none;
+    }
+    header div.wrap nav ul.enb{
+        display: none;
+      }
+    header div.wrap nav button.ham{
+      display: initial;
+    }
+    .wrap{
+      padding: 0 20px;
+    }
+    .h1{
+    font-size: calc(48px * 0.6);
+    }
+    div#title div.wrap p{
+    font-size: calc(19px * 0.6);
+    }
+  }
